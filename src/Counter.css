@@ -1,0 +1,26 @@
+.counter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    font-size: 18px;
+}
+
+.counter > button {
+    border-radius: 50%;
+    display: block;
+    height: 30px;
+    width: 30px;
+    border: azure solid 1px;
+    background: none;
+    font-size: 18px;
+}
+
+.counter > button:hover {
+    background-color: azure;
+}
+
+/* .counter:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.3);
+} */
